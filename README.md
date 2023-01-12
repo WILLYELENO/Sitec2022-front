@@ -18,6 +18,38 @@ Documentation:
 JSON Placeholder https://jsonplaceholder.typicode.com/
 JSON Server https://github.com/typicode/json-server
 
+Requirements:
+It is required to generate a website for the ITEC institution, where it can be consulted
+contact information, news, main page detailing the different areas
+With photographs and some descriptive text. In addition, said website must also
+allow working with sessions for students or teachers of the site to access
+different contents.
+
+Features developed:
+Suppliers
+- Theme: Required to be able to select between a Dark and Light Theme
+- Auth: We detail the logic to know if a user logged in
+- Language: At least two languages ​​Spanish and English are required
+- Mobile: Provider that gives us information on the type of device
+Pages
+- Index: main page images links and descriptions (publish)
+- login: controlled forms to be able to log in (public)
+- contact: information and form to send queries (public)
+- news: information and news from ITEC (public)
+- home: home page of the student (protected by Auth)
+Services
+- MockService: allows to emulate response with promises
+- ServiceApi: allows us to communicate with the back through fetch
+.
+
+
+Authentication:
+User: "williams@itec.org.ar"
+
+Password: "123456"
+
+
+
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
 [API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
