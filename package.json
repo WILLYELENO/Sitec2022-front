@@ -1,0 +1,31 @@
+{
+  "name": "sitec",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "fake-api": "json-server --watch services/API.json --port 5000",
+    "fake-api-auth": "json-server --watch services/API.json --port 5000 -m ./node_modules/json-server-auth"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.11",
+    "@chakra-ui/react": "^2.3.6",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@nextui-org/react": "^1.0.0-beta.10",
+    "framer-motion": "^6.5.1",
+    "next": "12.2.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.6.0"
+  },
+  "devDependencies": {
+    "eslint": "8.23.0",
+    "eslint-config-next": "12.2.5",
+    "json-server": "^0.17.1",
+    "json-server-auth": "^2.1.0"
+  }
+}
